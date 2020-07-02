@@ -1,0 +1,68 @@
+/* Write some CSS below */
+body {
+  font-family: 'Pangolin', cursive;
+  color: #184d47;
+  font-size: 18px;
+  background-color: #e7dfd5
+}
+
+h1, h2, h3 {
+  font-family: 'Indie Flower', cursive;
+}
+
+.banner {
+	background-image:url(images/AK.jpeg);
+	<---covermeans coverall the area of div---->
+	background-size:cover;
+	padding:120px;
+	color:white;
+	text-align:left;
+}
+
+.banner h1 {
+	font-size: 45px; margin: 15px;
+	}
+.banner p {
+	font-size: 20px;
+	}
+
+.buttonblue {
+	background-color:#eebb4d;
+	color:#5a3d55;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+
+.container {
+	width:900px;
+	margin-top: 100px;
+}
+
+.cardwhite{
+	background-color: #d4b5b0;
+	box-shadow: 10px 10px 16px rgba(1,1,1,1);
+	width: 320px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.Footer{
+  background: #404042;
+  text-align: center;
+  padding:0.3px;
+  color:white;
+  margin-top:80px;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+<----if on other devices,fit screen and change structure of box grid---->
+@media(max-width: 800px){
+	.cards{ grid-template-columns: 1fr }
+	.cardwhite{width: auto}
+}
+
